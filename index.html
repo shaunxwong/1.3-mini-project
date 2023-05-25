@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,21 +21,25 @@
 
   <main>
     <section>
-      <h1>Welcome to our Landing Page</h1>
-      <figure>
-        <img src="image.jpg" alt="Image Caption">
-        <figcaption>Caption for the image</figcaption>
-      </figure>
-      <form id="contact" action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <button type="submit">Send</button>
-      </form>
+       <div class="container">
+        <div class="centered"><h1>Welcome</h1></div>
+        <div><img src="assets/image-1.png" alt="gradient" style="width:100%;"></div>
+      </div>
+
+      <div class="form-box">
+        <form id="contact" action="#" method="post">
+            <label for="name"><h4>Name:</h4></label>
+            <input type="text" id="name" name="name" required>
+            <label for="email"><h4>Email:</h4></label>
+            <input type="email" id="email" name="email" required>
+             <button type="submit"><h4>Submit</h4></button>
+        </form>
+      </div>
+      
     </section>
   </main>
 
+  <footer>Check out this footer</footer>
 </body>
 
 </html>
